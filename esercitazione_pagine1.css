@@ -1,0 +1,408 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c0c0c0;
+    font-family: Verdana;
+}
+
+p{
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+
+    color: blueviolet;
+
+}
+
+#contenitore{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e64686;
+
+}
+
+#testa{
+    background-color: #c0c0c0;
+    text-align: center;
+    padding: 15px;
+
+}
+
+#menu_sx{
+    float: left;
+    width: 200px;
+    background-color: #e64686;
+
+}
+
+#menu_sx li {
+    padding:10px;
+    font-weight: bold;
+}
+
+#principale{
+    float: left;
+    width: 780px;
+    background-color: #c0c0c0;
+    padding: 10px;
+
+
+}
+
+#menu_dx{
+    float: right;
+    width: 200px;
+    background-color:#e64686;
+
+}
+
+#piede{
+    background-color: #e64686;
+    clear: both;
+    height: 90px;
+
+}
+
+#contatti{
+    background-color: #e64686;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 60px;
+    
+    
+}
+
+#tabella{
+    background-color: #e64686;
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+    height: 70px;
+
+}
+
+.immagine{
+    width: 600px;
+    height: auto;
+}
+
+#panchina{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu_sx ul{
+
+    list-style: none;
+    padding-left: 15px;
+
+}
+
+#menu_dx ul{
+
+    list-style: none;
+    padding-right: 20px;
+}
+
+#menu_sx2 {
+    display: none;
+}
+
+#tendina {
+    background-color: #e64686;
+    width: 100%;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+}
+
+
+
+@media only screen and (max-width: 1240px) {
+
+    #contenitore{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e64686;
+    
+    }
+
+    #testa{
+        background-color: #c0c0c0;
+        text-align: center;
+        padding: 15px;
+    
+    }
+
+    #menu_sx{
+        width: 100%;
+        background-color: #e64686;
+        text-align: center;
+    
+    }
+
+    #menu_sx ul li{
+
+        display: inline;
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #principale{
+
+        clear: both;
+        float: left;
+        width: 66%;
+        background-color: #c0c0c0;
+        padding-left: 2%;
+        padding-right: 2%;
+    
+    
+    }
+    
+    #menu_dx{
+        float: left;
+        width: 30%;
+        background-color:#e64686;
+    
+    }
+
+    #piede{
+        background-color: grey;
+        clear: both;
+        height: 80px;
+    
+    }
+    
+    #contatti{
+        background-color: grey;
+        float: left;
+        padding-top: 10px;
+        padding-left: 10px;
+        height: 70px;
+    }
+    
+    #tabella{
+        background-color: grey;
+        float: right;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 10px;
+        height: 70px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 930px) {
+
+    #contenitore{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e64686;
+    
+    }
+
+    #testa{
+        background-color: #c0c0c0;
+        text-align: center;
+        padding: 2%;
+    
+    }
+    
+    #menu_sx{
+        float: left;
+        width: 200px;
+        background-color: #e64686;
+        display: none;
+    
+    }
+    
+    #principale{
+        width: 96%;
+        background-color: #c0c0c0;
+        padding-left: 2%;
+        padding-right: 2%;
+    
+    
+    }
+    
+    #menu_dx{
+        width: 100%;
+        background-color:#e64686;
+    
+    }
+    
+    #piede{
+        background-color: grey;
+        clear: both;
+        height: 80px;
+    
+    }
+    
+    #contatti{
+        background-color: grey;
+        float: left;
+        padding-top: 10px;
+        padding-left: 10px;
+        height: 70px;
+    }
+    
+    #tabella{
+        background-color: grey;
+        float: right;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 10px;
+        height: 70px;
+    }
+
+    #panchina{
+
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .immagine{
+
+        width: 90%;
+        height: auto;
+    }
+
+    #menu_sx2 {
+        display: block;
+    }
+    
+    #testa{
+        background-color: #c0c0c0;
+        text-align: center;
+        padding: 2%;
+    
+    }
+    
+    #menu_sx{
+        float: left;
+        width: 200px;
+        background-color: #e64686;
+        display: none;
+    
+    }
+    
+    #principale{
+        width: 96%;
+        background-color: #c0c0c0;
+        padding-left: 2%;
+        padding-right: 2%;
+    
+    
+    }
+    
+    #menu_dx{
+        width: 100%;
+        background-color:#e64686;
+    
+    }
+    
+    #piede{
+        background-color: grey;
+        clear: both;
+        height: 80px;
+    
+    }
+    
+    #contatti{
+        background-color: grey;
+        float: left;
+        padding-top: 10px;
+        padding-left: 10px;
+        height: 70px;
+    }
+    
+    #tabella{
+        background-color: grey;
+        float: right;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 10px;
+        height: 70px;
+    }
+
+    #panchina{
+
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .immagine{
+
+        width: 90%;
+        height: auto;
+    }
+
+    #menu_sx2 {
+        display: block;
+    }
+
+
+}
+
+@media only screen and (max-width: 430px) {
+
+    #contenitore{
+        width: 100%;
+    }
+
+    #testa {
+        width: 100%;
+        height: auto;
+    }
+
+    #piede {
+        text-align: center;
+        width: 100%;
+    }
+
+    #tabella {
+        width: 96%;
+        clear: both;
+        height: 60px;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: #e64686;
+       
+        
+    }
+
+    #contatti {
+        width: 96%;
+        height: 30px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .logo {
+        width: 50%;
+        height: 50%;
+    }
+}
+
